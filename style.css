@@ -1,0 +1,116 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes kedip {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.blink {
+    font-size: 2em;
+    color: red;
+    animation: kedip 1s infinite;
+}
+
+/* Basic Styling */
+body {
+    font-family: 'Atma', cursive;
+    background-color: #D8BFD8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+/* Header Styling */
+header {
+    background-color: #D8BFD8;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+/* Main Content */
+main {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-item h2 {
+    font-size: 1.5em;
+    margin: 20px; /* Memberi jarak antar elemen */
+}
+
+.product-item p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-item button {
+    background-color: #f7daf7;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.product-item button:hover {
+    background-color: #d4bebe;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
